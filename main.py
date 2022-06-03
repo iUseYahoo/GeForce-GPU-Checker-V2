@@ -42,7 +42,8 @@ def main():
     # Get the list of all the available tools
     headername = ["Number", "GPU"]
     gpunames = [
-        ["1", "Nvidia GeForce RTX 3060 Ti"]
+        ["1", "Nvidia GeForce RTX 3060 Ti"],
+        ["2", "Nvidia GeForce RTX 3090 Ti"]
     ]
 
     # shows the table

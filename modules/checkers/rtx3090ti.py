@@ -2,8 +2,8 @@ import requests, os, sys, time
 from main import tools
 from bs4 import BeautifulSoup
 
-base_name = "" # GPU Name here, Example: Nvidia GeForce RTX 3060 Ti
-url = "" # Site URL of the evga.com gpu page
+base_name = "GeForce RTX 3090 Ti" # GPU Name here, Example: Nvidia GeForce RTX 3060 Ti
+url = "https://www.evga.com/products/product.aspx?pn=24G-P5-4981-KR" # Site URL of the evga.com gpu page
 price_element = "LFrame_spanFinalPrice" # Put the price element here, Example: LFrame_spanFinalPrice
 
 def main():
