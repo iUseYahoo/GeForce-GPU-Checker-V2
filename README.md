@@ -1,4 +1,5 @@
 ### GPU Checker V2
+- Current Development: Adding new GPUs into the script actively.
 
 ### Information
 - I've created a new version of the GPU Checker, since I was too lazy to update the old one, hence this one is more neat and clean. 
