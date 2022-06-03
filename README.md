@@ -1,7 +1,7 @@
-### GPU Checker
+### GPU Checker V2
 
 ### Information
-- [Python](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)
+- I've created a new version of the GPU Checker, since I was too lazy to update the old one, hence this one is more neat and clean. 
 
 ### Contribution 
 - GPU Checker location: /modules/checkers
