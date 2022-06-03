@@ -11,7 +11,7 @@
 
 ### Installation 📦
 
-- Install the requirements: `python3 -m pip install -r requirements.txt`
+- Install the requirements: `python -m pip install -r requirements.txt`
 
 ### Usage 💻
 - `python main.py` 
