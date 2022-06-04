@@ -42,12 +42,14 @@ def main():
     # Get the list of all the available tools
     headername = ["Number", "GPU (Sorts by recently added last)"]
     gpunames = [
-        ["1", "Nvidia GeForce RTX 3070 Ti"],
-        ["2", "Nvidia GeForce RTX 3090 Ti"],
-        ["3", "Nvidia GeForce RTX 3090"],
-        ["4", "Nvidia GeForce RTX 3080 Ti"],
-        ["5", "Nvidia GeForce RTX 3080"],
-        ["6", "Nvidia GeForce RTX 3070 Ti"],
+        ["1", "Nvidia GeForce RTX 3090 Ti"],
+        ["2", "Nvidia GeForce RTX 3090"],
+        ["3", "Nvidia GeForce RTX 3080 Ti"],
+        ["4", "Nvidia GeForce RTX 3080"],
+        ["5", "Nvidia GeForce RTX 3070 Ti"],
+        ["6", "Nvidia GeForce RTX 3070"],
+        ["7", "Nvidia GeForce RTX 3060 Ti"],
+        ["8", "Nvidia GeForce RTX 3060"]
     ]
 
     # shows the table
