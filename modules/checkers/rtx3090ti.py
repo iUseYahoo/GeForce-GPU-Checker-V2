@@ -18,26 +18,16 @@ def main():
     site = requests.get(url, headers=headers)
     soup = BeautifulSoup(site.content, 'html.parser')
 
-    try:
-        stock_info = soup.find(class_="message message-information").get_text() # The ID of the stock element
-        if "Out of Stock" in stock_info:
-            tools.nogpustock(base_name)
-        else:
-            tools.hasgpustock(base_name)
+    stock_info = soup.find(class_="message message-information") # The ID of the stock element
 
-        while True:
-            price = soup.find(id=price_element).get_text() # The ID of the price element to grab 
-            price = price.replace(' ', '') # removing all spaces
-
-            tools.showGpuPrice(price)
-            time.sleep(timedelay)
-
-
-    except AttributeError:
+    if stock_info is None:
         tools.nogpustock(base_name)
-        while True:
-            price = soup.find(id=price_element).get_text() # The ID of the price element to grab 
-            price = price.replace(' ', '') # removing all spaces
+    else:
+        tools.hasgpustock(base_name)
 
-            tools.showGpuPrice(price)
-            time.sleep(timedelay)
+    while True:
+        price = soup.find(id=price_element).get_text() # The ID of the price element to grab 
+        price = price.replace(' ', '') # removing all spaces
+
+        tools.showGpuPrice(price)
+        time.sleep(timedelay)
