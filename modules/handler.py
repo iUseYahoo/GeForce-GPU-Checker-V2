@@ -18,6 +18,6 @@ def main(num):
     elif num == 5:
         rtx3080.main()
     elif num == 6:
-        rtx3070ti()
+        rtx3070ti.main()
     else:
         print("Invalid number")
