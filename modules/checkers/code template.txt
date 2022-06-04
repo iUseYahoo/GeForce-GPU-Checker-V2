@@ -2,7 +2,7 @@ import requests, os, sys, time
 from main import tools
 from bs4 import BeautifulSoup
 
-base_name = "" # GPU Name here, Example: Nvidia GeForce RTX 3060 Ti
+base_name = "" # GPU Name here, Example: GeForce RTX 3070 Ti
 url = "" # Site URL of the evga.com gpu page
 price_element = "LFrame_spanFinalPrice" # Put the price element here, Example: LFrame_spanFinalPrice
 
