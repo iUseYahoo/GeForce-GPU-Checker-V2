@@ -46,7 +46,8 @@ def main():
         ["2", "Nvidia GeForce RTX 3090 Ti"],
         ["3", "Nvidia GeForce RTX 3090"],
         ["4", "Nvidia GeForce RTX 3080 Ti"],
-        ["5", "Nvidia GeForce RTX 3080"]
+        ["5", "Nvidia GeForce RTX 3080"],
+        ["6", "Nvidia GeForce RTX 3070 Ti"],
     ]
 
     # shows the table

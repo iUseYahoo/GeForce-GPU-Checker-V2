@@ -34,7 +34,7 @@ def main():
 
 
     except AttributeError:
-        tools.hasgpustock(base_name)
+        tools.nogpustock(base_name)
         while True:
             price = soup.find(id=price_element).get_text() # The ID of the price element to grab 
             price = price.replace(' ', '') # removing all spaces
